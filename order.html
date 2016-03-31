@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-compatible">
     <meta name="viewport" value="width=device-width, initial-scale=1">
     <title>Cupcake Makers - Order Form</title>
+    <link href='https://fonts.googleapis.com/css?family=Crafty+Girls' rel='stylesheet' type='text/css'>
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <script src="js/jquery-1.12.2.js"></script>
@@ -37,6 +38,54 @@
     </div>
     <!-- End Navbar -->
     <div class="container">
+      <div id="order" class="row">
+        <h1>Get Your Cupcakes from Cupcake Makers!</h1>
+        <form>
+          <div class="form-group col-xs-6">
+            <label for="firstname">First Name:</label>
+            <input id="firstname" class="form-control" type="text">
+          </div>
+          <div class="form-group col-xs-6">
+            <label for="lastname">Last Name:</label>
+            <input id="lastname" class="form-control" type="text">
+          </div>
+          <div class="form-group col-xs-12">
+            <label for="street">Street Address:</label>
+            <input id="street" class="form-control" type="text">
+          </div>
+          <div class="form-group col-xs-6">
+            <label for="city">City:</label>
+            <input id="city" class="form-control" type="text">
+          </div>
+          <div class="form-group col-xs-2">
+            <label for="state">State:</label>
+            <input id="state" class="form-control" type="text">
+          </div>
+          <div class="form-group col-xs-4">
+            <label for="zip">Zip:</label>
+            <input id="zip" class="form-control" type="text">
+          </div>
+          <div class="form-group col-xs-5">
+            <label for="product">Which kind of cupcake do you want?</label>
+            <input id="product" class="form-control" type="text">
+          </div>
+          <div class="form-group col-xs-5">
+            <label for="quantity">How many should we send you?</label>
+            <input id="quantity" class="form-control" type="text">
+          </div>
+          <div class="form-group col-xs-2">
+            <button type="submit" class="btn btn-info btn-block">Buy Now!</button>
+          </div>
+        </form>
+      </div>
+      <div id="receipt" class="jumbotron">
+        <h1>Thank you for your order!</h1>
+        <p>Your credit card will be billed: $<span class="total"></span></p>
+        <p><span class="quantity"></span> <span class="product"></span> will be sent to you by
+        overnight delivery to ensure the freshest cupcakes available for order online.</p>
+        <p>You should recieve your order on <span class="todayDate"></span>.</p>
+        <p>Enjoy your cupcakes and be sure to tell your friends about <strong>Cupcake Makers</strong>!</p>
+      </div>
     </div>
   </body>
 </html>

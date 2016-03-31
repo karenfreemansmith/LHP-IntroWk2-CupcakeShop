@@ -10,3 +10,7 @@ h1 {
 body {
   padding-top: 70px;
 }
+
+#receipt {
+  display:none;
+}
