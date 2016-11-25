@@ -1,22 +1,19 @@
-# :custard: [Cupcake Makers](http://karenfreemansmith.github.io/cupcakes) :birthday:
-![project screenshot](/img/screenshot.jpg)
+# Cupcake Shop
+Version 0.0.2: March 30, 2016
+by [Karen Freeman-Smith](https://karenfreemansmith.github.io)
 
-__Version 2: March 30, 2016__
+### Technologies Used
+HTML, CSS, Bootstrap, JavaScript, jQuery
 
-## by [Karen Freeman-Smith](http://karenfreemansmith.github.io)
+![screenshot of project running](screenshot.png)
 
-### Description
-__*Website for a fictional cupcake shop*__
-
-This website was built to practice using CSS elements, it has been updated with Bootstrap and features an order form built with jQuery, and cooking conversions on the recipe page.
-
-## Technologies Used
-HTML, CSS
+## Description
+*[Learn How To Program](http://learnhowtoprogram.com) Intro to Programming Week 2 Individual Project: Build a website for a cupcake shop to practice using CSS elements, updated with Bootstrap and features an order form built with jQuery, and cooking conversions on the recipe page.*
 
 ## Setup/Installation
-* [View on Github Pages](https://karenfreemansmith.github.io/EpicIntroWk1-PetWebsite)
+* [View on Github Pages](https://karenfreemansmith.github.io/LHP-IntroWk2-CupcakeShop)
 * _OR_
-* Clone diectory 
+* Clone directory
 * Open index.html in your favorite browser
 
 ## Support & Contact
